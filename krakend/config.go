@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	botdetector "github.com/krakendio/krakend-botdetector/v2"
-	"github.com/luraproject/lura/v2/config"
+	botdetector "github.com/davron112/krakend-botdetector/v2"
+	"github.com/davron112/lura/v2/config"
 )
 
 // Namespace is the key used to store the bot detector config at the ExtraConfig struct

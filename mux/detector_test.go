@@ -7,11 +7,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	krakend "github.com/krakendio/krakend-botdetector/v2/krakend"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
-	luramux "github.com/luraproject/lura/v2/router/mux"
+	krakend "github.com/davron112/krakend-botdetector/v2/krakend"
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/logging"
+	"github.com/davron112/lura/v2/proxy"
+	luramux "github.com/davron112/lura/v2/router/mux"
 )
 
 func TestRegister(t *testing.T) {

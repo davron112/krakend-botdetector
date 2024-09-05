@@ -7,12 +7,12 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/davron112/gin"
 	krakend "github.com/davron112/krakend-botdetector/v2/krakend"
 	"github.com/davron112/lura/v2/config"
 	"github.com/davron112/lura/v2/logging"
 	"github.com/davron112/lura/v2/proxy"
 	krakendgin "github.com/davron112/lura/v2/router/gin"
-	"github.com/gin-gonic/gin"
 )
 
 func TestRegister(t *testing.T) {
